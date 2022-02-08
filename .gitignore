@@ -1,0 +1,4 @@
+*.sh
+*.out
+out/**
+zoobot**
