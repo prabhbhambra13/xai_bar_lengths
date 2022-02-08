@@ -62,7 +62,7 @@ The relevant entries in `params.yaml` are:
 - `model` - The model to be trained. One of `vgg16`, `resnet50v2`, or `xception`.
 - `data`
   - `augmentation` - How to augment the training data. Please see the `Keras` documentation for [`ImageDataGenerator`](https://www.tensorflow.org/versions/r2.4/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator) for more information on the individual entries.
-  - `img_height`, `img_width`, and `img_depth` - The dimensions to which the training images will be downscaled to. These should be set to 224, 224, and 4 respectively, and should not be changed.
+  - `img_height`, `img_width`, and `img_depth` - The dimensions to which the training images will be downscaled to. These should be set to 224, 224, and 3 respectively, and should not be changed.
 - `train`
   - `epochs` - The number of epoch to train for.
   - `batch_size` - The batch size to use for training.
